@@ -1,7 +1,6 @@
-const { comparePassword } = require('../helper/bcrypt')
-const { signToken, verifyToken } = require('../helper/jwt')
+const { comparePassword, hashPassword } = require('../helpers/bcrypt')
+const { signToken} = require('../helpers/jwt')
 const { User, Menu, Order } = require('../models/index')
-
 
 module.exports = class UserController {
     static async register(req, res, next) {
@@ -49,6 +48,32 @@ module.exports = class UserController {
             })
         } catch (error) {
             // console.log(error);
+            next(error)
+        }
+    }
+    static async changePassword(req, res, next) {
+        try {
+            const {oldPassword, newPassword } = req.body
+
+            const id = req.user.id
+            const user = await User.findByPk(id)
+
+            if (!user) {
+                throw { name: "Invalid User" }
+            }
+            const validPassword = comparePassword(oldPassword, user.password)
+            
+            if (!validPassword) {
+                throw { name: "Invalid User" }
+            }
+            const newPasswordHash = hashPassword(newPassword)
+            await User.update({ password: newPasswordHash }, {
+                where: {
+                    id: id
+                }
+            })
+            res.status(200).json({ message: "Password has been changed" })
+        } catch (error) {
             next(error)
         }
     }

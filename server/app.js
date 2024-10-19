@@ -3,7 +3,7 @@ if (process.env.NODE_ENV !== "production") {
 }
 const express = require('express')
 const app = express()
-const router = require('./router/index');
+const router = require('./routers/index');
 const errorHandler = require('./middlewares/errorHandler');
 
 app.use(express.urlencoded({ extended: true }));

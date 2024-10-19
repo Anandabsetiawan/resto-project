@@ -26,10 +26,12 @@ module.exports = class OrderController {
     }
     static async addOrder(req, res, next) {
         try {
+            const { menuId } = req.body
+            const userId = req.user.id
             const [order, create] = await Order.findOrCreate({
                 where: {
                     MenuId: req.body.MenuId,
-                    UserId: req.user.id,
+                    UserId: userId
                 },
                 defaults: {
                     quantity: 1,
@@ -37,12 +39,12 @@ module.exports = class OrderController {
                 include: {
                     model: Menu,
                     where: {
-                        id: req.body.MenuId
+                        id: menuId
                     }
                 }
             })
 
-            if (!req.body.MenuId) {
+            if (!menuId) {
                 throw { name: 'Menu 404' }
             }
             if (!create) {
