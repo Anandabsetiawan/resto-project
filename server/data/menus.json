@@ -1,0 +1,378 @@
+[
+  {
+    "name": "Fried rice",
+    "description": "Fried rice is a dish of cooked rice that has been stir-fried in a wok or a frying pan and is usually mixed with other ingredients such as eggs, vegetables, seafood, or meat. It is often eaten by itself or as an accompaniment to another dish",
+    "price": "25000",
+    "stock": "100",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwa2Cc2RRF-LAKG9FR1lBB8Q3PGcDMuI34bw&s",
+    "categoryId": "1"
+  },
+  {
+    "name": "Iced Orange",
+    "description": "It's basically orange juice, water, and sugar, and is refreshingly sweet and citrusy.",
+    "price": "15000",
+    "stock": "100",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgKzhMcSgNi6PU_7nKtH07WQrF50uYFzL1Xw&s",
+    "categoryId": "7"
+  },
+  {
+    "name": "Iced Tea",
+    "description": "Iced tea is a form of cold tea.",
+    "price": "10000",
+    "stock": "100",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTJSphsiyMtrQuMVweWxw6gH0PdovqaFhc8A&s",
+    "categoryId": "7"
+  },
+  {
+    "name": "Nila goreng",
+    "description": "Nila goreng is a hot dish consisting of deep fried tilapia fish . Ikan goreng literally means fried fish in Indonesian and Malay languages.",
+    "price": "32000",
+    "stock": "100",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSzCDoBPr1GMG19-ragOhaoU-U0pyip8dlkA&s",
+    "categoryId": "3"
+  },
+  {
+    "name": "Ayam penyet",
+    "description": "Ayam penyet Javanese for squeezed fried chicken is Indonesian more precisely East Javanese cuisine fried chicken dish consisting of fried chicken that is squeezed with the pestle against the mortar to make it softer, and is served with sambal, slices of cucumbers, fried tofu, and tempeh mostly cucumber.",
+    "price": "25000",
+    "stock": "100",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYVxgSSHicabC3aTHzdOzHBUUfJAtkRptQTg&s",
+    "categoryId": "2"
+  },
+  {
+    "name": "Kebuli rice",
+    "description": " an Indonesian variation of pilaf. It consists of rice cooked in goat meat broth, goat milk, and clarified butter or most often ghee. It is popular among the Arab community in Indonesia and Betawi people in Jakarta.",
+    "price": "55000",
+    "stock": "100",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTij502Ij4kd_wCpPl_MtkJGCzXvwG8RTze2g&s",
+    "categoryId": "1"
+  },
+  {
+    "name": "Lamb satay",
+    "description": "Originated from Java, Sate or Satay kambing is a popular Indonesian street food dish of seasoned, skewered and then grilled or barbecued sliced Lamb, served with a sauce made of peanut combined with sweet soy",
+    "price": "50000",
+    "stock": "100",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3HhSfV3xseggJ6JSp5FvTOzvUOHRf25vqZQ&s",
+    "categoryId": "5"
+  },
+  {
+    "name": "Rendang",
+    "description": "Slow-cooked spicy meat dish originating from the Minangkabau region, usually made with beef simmered with coconut milk and a mixture of spices",
+    "price": "35000",
+    "stock": "80",
+    "imageUrl": "https://example.com/images/rendang.jpg",
+    "categoryId": "6"
+  },
+  {
+    "name": "Chicken satay",
+    "description": "Originated from Java, Sate or Satay Ayam is a popular Indonesian street food dish of seasoned, skewered and then grilled or barbecued sliced chicken, served with a sauce made of peanut combined with sweet soy",
+    "price": "30000",
+    "stock": "100",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7z1nE48OzH7HYfOj6I66VD1Ws-9fMKEUFXg&s",
+    "categoryId": "2"
+  },
+  {
+    "name": "Gado-gado",
+    "description": "Indonesian salad of boiled vegetables, eggs, tempeh, and tofu, served with peanut sauce dressing",
+    "price": "18000",
+    "stock": "100",
+    "imageUrl": "https://example.com/images/gado-gado.jpg",
+    "categoryId": "8"
+  },
+  {
+    "name": "Soto ayam",
+    "description": "Soto ayam is a traditional Indonesian dish with ingredients such as chicken, lontong, noodles, and rice vermicelli. Soto ayam is popular in Singapore, Malaysia and Suriname.",
+    "price": "25000",
+    "stock": "100",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS2NFNvyT5KWMUMpzOV36-3hM_iamOzupO4w&s",
+    "categoryId": "2"
+  },
+  {
+    "name": "Bakso",
+    "description": "Indonesian meatball soup with broth, noodles, tofu, vegetables, and various toppings",
+    "price": "15000",
+    "stock": "200",
+    "imageUrl": "https://example.com/images/bakso.jpg",
+    "categoryId": "6"
+  },
+  {
+    "name": "Nasi Uduk",
+    "description": "Steamed rice cooked with coconut milk and served with various side dishes",
+    "price": "17000",
+    "stock": "130",
+    "imageUrl": "https://example.com/images/nasi-uduk.jpg",
+    "categoryId": "1"
+  },
+  {
+    "name": "Mie Goreng",
+    "description": "Indonesian stir-fried noodles with vegetables, chicken or seafood, and sweet soy sauce",
+    "price": "18000",
+    "stock": "140",
+    "imageUrl": "https://example.com/images/mie-goreng.jpg",
+    "categoryId": "9"
+  },
+  {
+    "name": "Sambal Udang",
+    "description": "Spicy shrimp dish cooked in chili-based sauce, often served with rice",
+    "price": "40000",
+    "stock": "70",
+    "imageUrl": "https://example.com/images/sambal-udang.jpg",
+    "categoryId": "10"
+  },
+  {
+    "name": "Ayam Bakar",
+    "description": "Indonesian grilled chicken marinated in various spices and sweet soy sauce",
+    "price": "30000",
+    "stock": "100",
+    "imageUrl": "https://example.com/images/ayam-bakar.jpg",
+    "categoryId": "2"
+  },
+  {
+    "name": "Nasi Kuning",
+    "description": "Yellow rice cooked with coconut milk and turmeric, served with various side dishes",
+    "price": "20000",
+    "stock": "110",
+    "imageUrl": "https://example.com/images/nasi-kuning.jpg",
+    "categoryId": "1"
+  },
+  {
+    "name": "Sop Buntut",
+    "description": "Indonesian oxtail soup with carrots, potatoes, and various spices",
+    "price": "45000",
+    "stock": "60",
+    "imageUrl": "https://example.com/images/sop-buntut.jpg",
+    "categoryId": "6"
+  },
+  {
+    "name": "Lontong Sayur",
+    "description": "Rice cake served with vegetable curry and various toppings",
+    "price": "16000",
+    "stock": "120",
+    "imageUrl": "https://example.com/images/lontong-sayur.jpg",
+    "categoryId": "8"
+  },
+  {
+    "name": "Lele goreng",
+    "description": "Pecel lele or pecak lele is an Indonesian deep-fried Clarias catfish dish originating from Lamongan, East Java, Indonesia.",
+    "price": "22000",
+    "stock": "100",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSDzB-dSg1e8eWKYSK-oRfxW8mYvrMZyMhZQ&s",
+    "categoryId": "3"
+  },
+  {
+    "name": "Siomay",
+    "description": "Indonesian-style steamed fish dumplings served with peanut sauce",
+    "price": "20000",
+    "stock": "150",
+    "imageUrl": "https://example.com/images/siomay.jpg",
+    "categoryId": "11"
+  },
+  {
+    "name": "Nasi Campur",
+    "description": "Mixed rice dish with various small portions of meat, vegetables, peanuts, eggs, and fried-shrimp krupuk",
+    "price": "28000",
+    "stock": "100",
+    "imageUrl": "https://example.com/images/nasi-campur.jpg",
+    "categoryId": "1"
+  },
+  {
+    "name": "Bebek Goreng",
+    "description": "Indonesian-style deep-fried duck often served with rice and sambal",
+    "price": "35000",
+    "stock": "80",
+    "imageUrl": "https://example.com/images/bebek-goreng.jpg",
+    "categoryId": "4"
+  },
+  {
+    "name": "Ikan Bakar",
+    "description": "Grilled fish marinated in various spices, often served with rice and sambal",
+    "price": "40000",
+    "stock": "70",
+    "imageUrl": "https://example.com/images/ikan-bakar.jpg",
+    "categoryId": "3"
+  },
+  {
+    "name": "Sayur Asem",
+    "description": "Sour vegetable soup with tamarind, often containing peanuts, corn, and jackfruit",
+    "price": "15000",
+    "stock": "130",
+    "imageUrl": "https://example.com/images/sayur-asem.jpg",
+    "categoryId": "8"
+  },
+  {
+    "name": "Martabak Manis",
+    "description": "Sweet thick pancake filled with various toppings like chocolate, cheese, and peanuts",
+    "price": "30000",
+    "stock": "100",
+    "imageUrl": "https://example.com/images/martabak-manis.jpg",
+    "categoryId": "11"
+  },
+  {
+    "name": "Soto betawi",
+    "description": "Soto Betawi made of beef or beef offal, cooked in a cow milk or coconut milk broth, with fried potato and tomato.",
+    "price": "35000",
+    "stock": "100",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjLKhkqxX8T9A3E_z6rJqVnOzfHd4eaefZWg&s",
+    "categoryId": "6"
+  },
+  {
+    "name": "Pisang Goreng",
+    "description": "Deep-fried banana fritters, often served as a snack or dessert",
+    "price": "10000",
+    "stock": "200",
+    "imageUrl": "https://example.com/images/pisang-goreng.jpg",
+    "categoryId": "11"
+  },
+  {
+    "name": "Rawon",
+    "description": "East Javanese black beef soup with kluwek nut that gives it a dark color",
+    "price": "30000",
+    "stock": "80",
+    "imageUrl": "https://example.com/images/rawon.jpg",
+    "categoryId": "6"
+  },
+  {
+    "name": "Opor Ayam",
+    "description": "Chicken cooked in coconut milk with various spices, traditionally served during Eid al-Fitr",
+    "price": "28000",
+    "stock": "100",
+    "imageUrl": "https://example.com/images/opor-ayam.jpg",
+    "categoryId": "2"
+  },
+  {
+    "name": "Ketoprak",
+    "description": "Vegetarian dish of tofu, vegetables, rice cake, and rice vermicelli with peanut sauce dressing",
+    "price": "15000",
+    "stock": "120",
+    "imageUrl": "https://example.com/images/ketoprak.jpg",
+    "categoryId": "8"
+  },
+  {
+    "name": "Pempek",
+    "description": "Palembang-style fishcake served with sweet and sour sauce",
+    "price": "20000",
+    "stock": "150",
+    "imageUrl": "https://example.com/images/pempek.jpg",
+    "categoryId": "11"
+  },
+  {
+    "name": "Gulai Kambing",
+    "description": "Indonesian curry made with goat meat or mutton in a spicy coconut milk-based sauce",
+    "price": "40000",
+    "stock": "70",
+    "imageUrl": "https://example.com/images/gulai-kambing.jpg",
+    "categoryId": "5"
+  },
+  {
+    "name": "Nasi Liwet",
+    "description": "Javanese-style rice cooked with coconut milk, chicken broth, and various spices",
+    "price": "25000",
+    "stock": "110",
+    "imageUrl": "https://example.com/images/nasi-liwet.jpg",
+    "categoryId": "1"
+  },
+  {
+    "name": "Bubur Ayam",
+    "description": "Indonesian rice porridge topped with shredded chicken, green onions, and crispy fried shallots",
+    "price": "18000",
+    "stock": "130",
+    "imageUrl": "https://example.com/images/bubur-ayam.jpg",
+    "categoryId": "2"
+  },
+  {
+    "name": "Kerak Telor",
+    "description": "Betawi egg and rice crust dish often sold as street food in Jakarta",
+    "price": "15000",
+    "stock": "100",
+    "imageUrl": "https://example.com/images/kerak-telor.jpg",
+    "categoryId": "11"
+  },
+  {
+    "name": "Sate Lilit",
+    "description": "Balinese minced fish satay mixed with coconut and spices, wrapped around lemongrass or bamboo sticks",
+    "price": "25000",
+    "stock": "90",
+    "imageUrl": "https://example.com/images/sate-lilit.jpg",
+    "categoryId": "11"
+  },
+  {
+    "name": "Cendol",
+    "description": "Iced sweet dessert with green rice flour jelly, coconut milk, and palm sugar syrup",
+    "price": "12000",
+    "stock": "180",
+    "imageUrl": "https://example.com/images/cendol.jpg",
+    "categoryId": "7"
+  },
+  {
+    "name": "Mie Aceh",
+    "description": "Spicy noodle dish from Aceh, typically served with beef or seafood",
+    "price": "25000",
+    "stock": "100",
+    "imageUrl": "https://example.com/images/mie-aceh.jpg",
+    "categoryId": "9"
+  },
+  {
+    "name": "Gudeg",
+    "description": "Javanese dish made from young jackfruit cooked with coconut milk and various spices",
+    "price": "20000",
+    "stock": "110",
+    "imageUrl": "https://example.com/images/gudeg.jpg",
+    "categoryId": "1"
+  },
+  {
+    "name": "Balado Terong",
+    "description": "Spicy eggplant dish cooked with chili paste, often served as a side dish",
+    "price": "15000",
+    "stock": "120",
+    "imageUrl": "https://example.com/images/balado-terong.jpg",
+    "categoryId": "8"
+  },
+  {
+    "name": "Beef Kebab",
+    "description": "kebab, dish of Middle Eastern or Central Asian origin that typically combines small pieces of meat such as lamb or beef with vegetables on a skewer and is then grilled",
+    "price": "25000",
+    "stock": "100",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrCo3JEzRv_VZUbCplcE5U_tCY_Kuzz-ZK1Q&s",
+    "categoryId": "6"
+  },
+  {
+    "name": "Chicken Kebab",
+    "description": "kebab, dish of Middle Eastern or Central Asian origin that typically combines small pieces of meat such as chicken  with vegetables on a skewer and is then grilled",
+    "price": "20000",
+    "stock": "100",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIGssLAj4Y0KwuKlAwZs0RM_4U1FcO7HmWEA&s",
+    "categoryId": "2"
+  },
+  {
+    "name": "Chicken biryani",
+    "description": "Biryani is a celebratory rice and meat dish cherished in the Indian sub-continent. A traditional biryani consists of fluffy basmati rice layered over tender & succulent pieces of chicken, accompanied with the mesmerizing aromas of spices, herbs & caramelized onion",
+    "price": "35000",
+    "stock": "100",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyOOS-iubzGFsVm2BJ3gm4Hl-qwc5UEqq94g&s",
+    "categoryId": "2"
+  },
+  {
+    "name": "Soto Banjar",
+    "description": "South Kalimantan-style chicken soup with rice cakes, potato patties, and hard-boiled eggs",
+    "price": "22000",
+    "stock": "95",
+    "imageUrl": "https://example.com/images/soto-banjar.jpg",
+    "categoryId": "6"
+  },
+  {
+    "name": "Es Teler",
+    "description": "Indonesian cold and sweet dessert with avocado, young coconut meat, jackfruit, and condensed milk",
+    "price": "15000",
+    "stock": "150",
+    "imageUrl": "https://example.com/images/es-teler.jpg",
+    "categoryId": "7"
+  },
+  {
+    "name": "Sambal Matah",
+    "description": "Balinese raw shallot and lemongrass relish, often served as a condiment",
+    "price": "10000",
+    "stock": "200",
+    "imageUrl": "https://example.com/images/sambal-matah.jpg",
+    "categoryId": "10"
+  }
+]

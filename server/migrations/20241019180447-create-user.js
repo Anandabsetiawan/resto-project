@@ -9,7 +9,7 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      userName: {
+      username: {
         type: Sequelize.STRING
       },
       password: {
@@ -22,7 +22,7 @@ module.exports = {
         allowNull: false
       },
       profilePicture: {
-        type: Sequelize.STRING
+        type: Sequelize.TEXT
       },
       phoneNumber: {
         type: Sequelize.STRING

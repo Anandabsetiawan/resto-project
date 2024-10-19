@@ -1,0 +1,18 @@
+[
+    {
+        "username": "kiki",
+        "email": "kiki@gmail.com",
+        "password": "123456",
+        "role": "admin",
+        "profilePicture": "https://media.allure.com/photos/6617eb6851e4c54ca189fdc9/16:9/w_2560%2Cc_limit/zendaya%2520challengers%2520hairstyles.jpg",
+        "phoneNumber": "0777777777"
+    },
+    {
+        "username": "vani",
+        "email": "vanni@gmail.com",
+        "password": "123456",
+        "role": "user",
+        "profilePicture": "https://cdns.klimg.com/resized/670x/g/b/e/berhasil_jadi_supermodel_termahal_di_dunia_simak_perjalanan_karier_kendall_jenner/p/kendall_jenner-20230921-001-tpg.jpg",
+        "phoneNumber": "0987654366"
+    }
+]

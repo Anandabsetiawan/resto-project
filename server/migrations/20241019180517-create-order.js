@@ -30,7 +30,7 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       status: {
-        type: DataTypes.STRING,
+        type: Sequelize.STRING,
         defaultValue: 'pending'
       },
       createdAt: {
